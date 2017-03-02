@@ -20,17 +20,11 @@ builds or deploys.
 build:
     after-steps:
         - blesswinsamuel/telegram-notifier:
-            bot\_token: $TELEGRAM\_BOT\_TOKEN
-            chat\_id: $CHAT\_ID
+            bot_token: 123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
+            chat_id: 12345678
             branch: master
 ```
 
 # License
 
 The MIT License (MIT)
-
-# Changelog
-
-## 1.0.0
-
-- Initial release
