@@ -1,0 +1,20 @@
+name: telegram-notifier
+version: 1.0.0
+description: Posts wercker build/deploy status to a Telegram bot.
+keywords:
+  - notification
+  - webhook
+  - telegram
+properties:
+  bot_token:
+    type: string
+    required: true
+  chat_id:
+    type: string
+    required: true
+  notify_on:
+    type: string
+    required: false
+  branch:
+    type: string
+    required: false
